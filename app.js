@@ -2,7 +2,7 @@ const clalk = require('chalk')
 const fs = require('fs')
 const yargs = require('yargs')
 const notes = require('./notes.js')
-console.log("Syntax to run this application is : node app.js --title=this is title --body= this is body")
+console.log("Syntax to run this application is : node app.js add --title=this is title --body= this is body")
 yargs.command({
     command:'add',
     describe:'adds a file',
